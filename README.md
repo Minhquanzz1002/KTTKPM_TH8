@@ -3,4 +3,4 @@
 * Thực hành Adapter design pattern
 * Thực hành Facade design pattern
 ## Decorator
-![decorator]()
+![decorator](https://github.com/Minhquanzz1002/KTTKPM_TH8/blob/main/demo/decorator-architecture.png)
