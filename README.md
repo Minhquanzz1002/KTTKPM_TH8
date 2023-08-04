@@ -15,6 +15,7 @@ Trong tình huống cả class Vietnamese và Japanese đều không thể thay 
 ![adapter](https://github.com/Minhquanzz1002/KTTKPM_TH8/blob/main/demo/adapter-architecture.png)
 
 ## Facade
-
+Khi xây dựng 1 hệ thống bán hàng bằng spring boot. Khi có order sẽ phải get user, thông báo qua email, thông báo đơn vị vận chuyển,...<br>
+Mỗi lần có request sẽ phải khỏi tạo nhiều Service và gọi các hàm cần thiết. Thay vì vậy ta tạo ra một lớp Facade gôm các Service cần cho nghiệp vụ đặt hàng lại. Khi có request đặt hàng chỉ cần gọi hàm trong Facade thôi
 
 ![facade](https://github.com/Minhquanzz1002/KTTKPM_TH8/blob/main/demo/facade-architecture.png)
